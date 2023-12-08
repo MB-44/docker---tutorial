@@ -1,0 +1,31 @@
+What is docker
+
+- docker is a platform for building, running and shipping application
+
+Some application run on our development machine, but doesn't run on our 
+friend's or it can be customer.
+
+Reasons
+ - One or more files missing
+ - software version mismatch
+ - different configuration settings - like env variables
+
+ then here comes the docker
+
+container - An Isolated env for running an application
+Virtual machine - an abstraction of a machine (physical hardware)
+
+Hypervisors - exp - VirtualBox, VMware, Hyper-v (windows only)
+
+containers allows us to
+allow running multiple apps in isolation
+are lightweight
+use os of the host
+start quickly
+need less hardware Resources
+
+docker image contains these thing
+ - a cut down os
+ - a runtime env (eg, node)
+ - apllication files
+ - third party libraries
